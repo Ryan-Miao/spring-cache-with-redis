@@ -31,9 +31,10 @@ repositories {
 
 
 dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-cache')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
-    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
 
     compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
 
